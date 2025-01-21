@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <style>
+        #form{
+            background-color: firebrick;
+            color: white;
+            padding: 20px;
+            margin: 20px;
+            border: 2px solid black;
+            text-align: center;
+        }
+        h1{
+            font-family: "Old English Text MT";
+            text-decoration: underline;
+            color: black;
+            font-size: 50px;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Forms</title>
+</head>
+<body>
+<div id="form">
+<form>
+    <h1>Registration form</h1>
+    <label for="fname">First name</label><br>
+    <input type="text" id="fname" name="fname" placeholder="first name"><br>
+    <label for="lname">Last name</label><br>
+    <input type="text" id="lname" name="lname" placeholder="last name"><br>
+    <label for="email">Email address</label><br>
+    <input type="email" id="email" name="email" placeholder="email address"><br>
+    <label for="password">Password</label><br>
+    <input type="password" id="password" name="password" placeholder="*password*"><br><br>
+    <label for="male">Male</label>
+    <input type="radio" id="male" name="gender">
+    <label for="female">Female</label>
+    <input type="radio" id="female" name="gender"><br><br>
+    <input type="submit" value="register">
+</form>
+</div>
+
+</body>
+</html>

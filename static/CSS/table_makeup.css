@@ -1,0 +1,20 @@
+h2{
+    text-align: center;
+    color: firebrick;
+    font-family: "Old English Text MT";
+    font-size: 40px;
+}
+td,th{
+    border: 2px solid black;
+    padding: 10px;
+    text-align: center;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+
+}
+th{
+    color: blue;
+    font-family: Algerian;
+}

@@ -1,0 +1,37 @@
+.fruits{
+    background-color: firebrick;
+    color: white;
+    padding: 20px;
+    margin: 20px;
+    border: 2px solid black;
+    text-align: center;
+}
+.cars{
+    background-color: aqua;
+    color: black;
+    padding: 20px;
+    margin: 30px;
+    border: 2px solid firebrick;
+    text-align: left;
+}
+.city{
+    background-color: darkblue;
+    color: white;
+    padding: 20px;
+    margin: 20px;
+    text-align: right;
+    border: 2px aqua solid;
+}
+
+.mycontainer{
+    width: 100%;
+    overflow: auto;
+}
+.mycontainer div{
+    width: 33%;
+    float: left;
+}
+#computers{
+    background-color: firebrick;
+    color: white;
+}
